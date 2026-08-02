@@ -238,33 +238,35 @@ For publication-quality reproducibility, report:
 
 ### GPU power
 
-For normalized composite utilization \(u_t\), GPU power is represented as:
+For normalized composite utilization $u_t$, GPU power is represented as:
 
-\[
+$$
 P_{\mathrm{GPU},t}
-=
+==================
+
 N_{\mathrm{GPU}} P_{\mathrm{rated}}
 \left[
 f_{\mathrm{idle}}
 +
 \left(1-f_{\mathrm{idle}}\right)u_t
 \right].
-\]
+$$
 
 where:
 
-- \(N_{\mathrm{GPU}}\) is the number of GPUs;
-- \(P_{\mathrm{rated}}\) is rated power per GPU;
-- \(f_{\mathrm{idle}}\) is the idle-power fraction; and
-- \(u_t\) is normalized utilization at time \(t\).
+* $N_{\mathrm{GPU}}$ is the number of GPUs;
+* $P_{\mathrm{rated}}$ is rated power per GPU;
+* $f_{\mathrm{idle}}$ is the idle-power fraction; and
+* $u_t$ is normalized utilization at time $t$.
 
 ### IT power
 
 Total IT power is estimated as:
 
-\[
+$$
 P_{\mathrm{IT},t}
-=
+=================
+
 P_{\mathrm{GPU},t}
 +
 P_{\mathrm{CPU},t}
@@ -272,51 +274,54 @@ P_{\mathrm{CPU},t}
 P_{\mathrm{storage},t}
 +
 P_{\mathrm{network},t}.
-\]
+$$
 
 ### Facility power
 
 Facility power is calculated using dynamic PUE:
 
-\[
+$$
 P_{\mathrm{facility},t}
-=
+=======================
+
 P_{\mathrm{IT},t}
 \times
 PUE_t.
-\]
+$$
 
-The dynamic \(PUE_t\) term combines:
+The dynamic $PUE_t$ term combines:
 
-- a user-defined base PUE;
-- an ambient-temperature penalty; and
-- a low-load penalty.
+* a user-defined base PUE;
+* an ambient-temperature penalty; and
+* a low-load penalty.
 
 ### Grid energy and emissions
 
 Operational grid emissions are estimated as:
 
-\[
+$$
 CO_{2,t}
-=
+========
+
 E_{\mathrm{grid},t}
 \times
 CI_{\mathrm{grid}},
-\]
+$$
 
-where \(CI_{\mathrm{grid}}\) is grid carbon intensity.
+where $CI_{\mathrm{grid}}$ is grid carbon intensity.
 
 ### Water use
 
 Water use is estimated from IT energy and WUE:
 
-\[
+$$
 Water_t
-=
+=======
+
 E_{\mathrm{IT},t}
 \times
 WUE.
-\]
+$$
 
 These equations are simplified high-level representations and should be calibrated before application to a real facility.
 
