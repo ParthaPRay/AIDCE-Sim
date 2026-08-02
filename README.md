@@ -404,6 +404,14 @@ After installation, users would launch the application with:
 aidce-sim
 ```
 
+## TestPyPI Package
+
+[AIDCE-Sim v1.0.0 on TestPyPI](https://test.pypi.org/project/aidce-sim/1.0.0/)
+
+## Streamlit Deployment
+
+[Launch AIDCE-Sim on Streamlit Cloud](https://aidce-sim-feqykhvjlykg63auqp75j9.streamlit.app/)
+
 ## Responsible reporting
 
 When using AIDCE-Sim in a manuscript, report:
