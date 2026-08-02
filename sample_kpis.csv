@@ -1,0 +1,18 @@
+metric,value
+IT energy (MWh),790.6554043344902
+Facility energy (MWh),977.4670140769846
+Grid energy (MWh),977.4670140769846
+Peak facility load (MW),8.038975903475958
+Peak grid load (MW),8.038975903475958
+Average grid load (MW),5.818256036172526
+Grid load factor,0.723755874632835
+Energy-weighted PUE,1.236274372777781
+Renewable energy used (MWh),0.0
+Renewable coverage (%),0.0
+Carbon emissions (tCO2e),439.86015633464314
+Water consumption (m3),395.3277021672451
+Electricity cost,93213.6547524825
+Capacity exceedance (hours),0.0
+Maximum ramp (MW/min),0.07890555193412473
+95th percentile grid load (MW),7.222961176308891
+Battery equivalent cycles,0.0
