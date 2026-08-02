@@ -163,7 +163,7 @@ http://127.0.0.1:8501
 
 ## Google Colab
 
-A robust Colab notebook is included for running AIDCE-Sim in a temporary hosted environment.
+A robust Colab notebook(https://github.com/ParthaPRay/AIDCE-Sim/blob/main/AIDCE_Sim_v1.ipynb) is included for running AIDCE-Sim in a temporary hosted environment.
 
 The notebook:
 
